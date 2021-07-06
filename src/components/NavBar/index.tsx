@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-primary main-nav">
+    <nav className="navbar navbar-expand-md navbar-dark bg-primary main-nav">
       <div className="container-fluid top-container">
         <div className="nav-logo-text">
           <Link to="/">
@@ -26,15 +26,15 @@ const NavBar = () => {
         </button>
 
         <div className="collapse navbar-collapse main-menu" id="cars-navbar">
-          <ul className="navbar-nav offset-sm">
+          <ul className="navbar-nav offset-md">
             <li>
               <NavLink to="/" activeClassName="active" exact>
-                HOME
+                Home
               </NavLink>
             </li>
             <li>
               <NavLink to="/cars" activeClassName="active">
-                CATÁLOGO
+                Catálogo
               </NavLink>
             </li>
           </ul>

@@ -1,0 +1,80 @@
+.catalog-containerr{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;       
+    width: 100%;
+    background: #EDEDED;   
+    margin-bottom: 20px;    
+    border-radius: 10px;  
+}
+
+.catalog-cars-content{
+    size: 18px;
+    display: flex;    
+    flex-direction: column-reverse;
+    align-items: center;    
+    justify-content: center;
+}
+
+.catalog-cars-title{
+    font-size: 1.0em;
+}
+
+.catalog-cars-text{
+    font-size: 0.8em;
+    padding: 15px 10px 30px 30px;    
+    font-style: italic;
+}
+
+.catalog-cars-button{
+    width: 260px;
+    background-color: #00285F;
+    color: #fff;
+    margin: 0px 20px 20px 20px;
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+
+@media(min-width: 576px){
+    .catalog-cars-button{
+        width: 200px;       
+        height: 40px;
+    }
+}
+
+@media(min-width: 768px){
+    .catalog-cars-button{
+        width: 307px;
+    }
+}
+
+@media(min-width: 992px){
+    .catalog-cars-button{
+        width: 250px;
+    }
+}
+
+@media(min-width: 1200px){
+    .catalog-containerr{               
+        margin: 30px 0px 0px 0px;
+        width: 300px;        
+    }
+
+    .card-card-container{     
+        width: 1000px;   
+        margin: 0 100px;     
+    }
+
+    .catalog-cars-button{
+        width: 250px;       
+        height: 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .catalog-containerr{  
+        margin: 30px 0px 0px 0px;
+    }
+  }
+
