@@ -6,22 +6,22 @@ const Catalog = () => {
     <div className="container my-4">
       <SearchCar />
       <div className="row card-card-container">
-        <div className="col-sm-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4 col-xxl-3">
           <CarCards />
         </div>
-        <div className="col-sm-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4 col-xxl-3">
           <CarCards />
         </div>
-        <div className="col-sm-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4 col-xxl-3">
           <CarCards />
         </div>
-        <div className="col-sm-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4 col-xxl-3">
           <CarCards />
         </div>
-        <div className="col-sm-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4 col-xxl-3">
           <CarCards />
         </div>
-        <div className="col-sm-6 col-lg-4 col-xl-4">
+        <div className="col-sm-6 col-lg-4 col-xl-4 col-xxl-3">
           <CarCards />
         </div>
       </div>

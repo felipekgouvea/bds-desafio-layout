@@ -55,8 +55,11 @@
 }
 
 @media (min-width: 1200px) {
-  .catalog-search-container {
-    margin: 0px 40px 0px 115px;
+  .catalog-search-container {    
     border-radius: 10px;
   }
+
+  .catalog-search-input {
+    width: 810px;
+  }  
 }
